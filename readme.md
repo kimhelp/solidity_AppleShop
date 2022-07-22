@@ -1,0 +1,69 @@
+# solidity
+
+payable
+
+nopayable
+
+truffle init
+
+# appleShop
+
+온라인에서 파는 사과를 1eth
+
+구매 기능
+
+front -> 사과구매를 누르면 -> smart Contract
+
+환불
+
+front -> 사과환불을 누르면 -> smart Contract
+
+mapping
+
+1. buy
+2. sell
+3. getter
+
+tx{
+from : account
+to: CA ETH
+data: 0x020202
+value: 1ETH
+}
+
+value를 넣으려면 payable 속성이 필요!
+
+사과 사는 사람 = CA => 판매자
+
+address에 payable 속성이 붙으면 객체처럼 여러 기능을 쓸 수 있음.
+
+# Available Accounts
+
+(0) 0x9DB0eff0d75DC76690D98170D72B9dd99cfdEF9C (100 ETH)
+(1) 0x05466b0E8F10351870431034707e21c349BD2EC2 (100 ETH)
+(2) 0x8AE3067d5A798ea389B2960a280432b72570C2C4 (100 ETH)
+(3) 0x72c77fDF064Ebae2B04A6B2371a04636B4Ff91c2 (100 ETH)
+(4) 0x1D06a20F6826680d17bA8a9D02A4FE9C53C4fF11 (100 ETH)
+(5) 0x99850f78cb886f48a695f13E8403FfC0b5642789 (100 ETH)
+(6) 0x6DaeEFe434a2ED525D58bF922b09b4C4C1Ade093 (100 ETH)
+(7) 0x03f525C31607e4a72B7393AC0FE5dA7C2eca4A54 (100 ETH)
+(8) 0x62Ca339d7f17F0f889f59a83391BD28ec0fdbb98 (100 ETH)
+(9) 0x6CE0B0afE757D53C87D59Ef2A08273Cf223E51ED (100 ETH)
+
+# Private Keys
+
+(0) 0x12eef2874e1afe23d4d662c600a2f035ad19614ed401302a894fcbf57ff734a1
+(1) 0x10201cddc368978f9e1a63247bf57e5b6856ab73a19a17c9e84c9853a17e0c19
+(2) 0x9b47b8a65264159ddcc5e0c5c3aee2b23159ffdda40b7f2a7647d1ae2e176ab9
+(3) 0x8c66115c6c7245a5ff623366f988396e91c8b77312f2b7812cecf63c3c69901f
+(4) 0x6850cd747cafc6a75a16a69f4736d82b947cfe38e289ac38570855ea7046a2a1
+(5) 0x0e7c24975abb037cc47fcac0768d7378eed74f5591f5160be5b7a5c26cbffcef
+(6) 0xe22b169203989eb21868693524cd77586ed45604b8bfceb5961a8c0754b0379f
+(7) 0x6e54cb26c509e97f7b23a6040659a7851d44bf4b10635ea457a68c87cc098497
+(8) 0xa13dc3ce696de1cbc5c5bc340770e44f40dd8d6688c9008d26db8ccd1ac282c6
+(9) 0xbe62163558989fa4491fef07b511cf7398d953f173dd513777b17a344970e52f
+
+
+# token
+
+개발자가 개발자금을 벌기위해서 했던 행위
